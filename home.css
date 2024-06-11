@@ -1,0 +1,154 @@
+    *{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+body{
+    background-color: blueviolet;
+    /* تغيرات تنسيقات الخط في جسم الصفحة */
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-display: 10;
+    font-stretch: extra-expanded;
+    font-variant-numeric: slashed-zero;
+    /* background-image: linear-gradient(to top , rgb(110, 57, 57) , rgb(172,214,221)); */
+}
+
+ button{
+     all: unset;
+ }
+.hedarhhg{
+    color: coral;
+    font-size: 50px;
+    text-align: center;
+    font-style: inherit;
+}
+
+.in1{
+    background-color:  rgb(172, 214, 221 , 0.5);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135 /37% );
+    border: black 2px solid;
+    border-radius: 10px;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 25px;
+}
+.icon:hover{
+    font-size: 35px;
+    transition: 0.2s;
+    cursor:pointer;
+}
+.para{
+   font-size: 35px;
+   margin-top: -20px;
+
+}
+.para:hover{
+    font-size: 40px;
+    cursor: pointer;
+}
+.icon-star-full , .icon-bin, .icon-evil2{
+    opacity: 0.3;
+
+
+
+}
+.icon-star-full:hover {
+    color: orange;
+    opacity: 1;
+}
+.icon-bin:hover{
+    color: black;
+    opacity: 1;
+}
+.icon-evil2:hover{
+    color: rgb(221, 69, 9);
+    opacity: 1;
+}
+.forme{
+    text-align: center;
+    padding: 70px;
+    
+}
+.partoo{
+ font-size: 50px;
+
+}
+.inoo{
+    margin-top: 40px;
+    width: 500px;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 10px;
+    opacity: 0.5;
+    text-align: center;
+}
+.icon-plus{
+  font-size: 23px;
+  margin-left: 20px;
+}
+.icon-plus:hover{
+    font-size: 35px;
+    transition: 0.7s;
+    color: gray;
+}
+ .icon-heart{
+  color: red;
+}  
+.icon-heart:hover{
+    /* color: rgb(202, 73, 73); */
+    color: tomato;
+}
+
+/* for Java sicript */
+.dn{
+    display: none;
+}
+.din{
+    display: inline;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style:wavy ;
+}
+.oran{
+    color: rgb(255, 166, 0);
+    opacity: 1;
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .hedarhhg{
+    margin-top:30px;
+    font-size: 30px;
+    }
+    .forme{
+    padding:20px;
+    }
+    .forme p{
+    font-size:35px;
+    }
+    .icon-plus{
+        margin-top:20px;
+    }
+    .partoo{
+        margin-top:20px;
+    }
+    .inoo{
+    margin-top:20px;}
+
+
+ }
